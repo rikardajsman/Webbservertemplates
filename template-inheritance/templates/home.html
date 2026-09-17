@@ -3,6 +3,7 @@
 {% block title %}Home - Flask Template Inheritance{% endblock %}
 {# this content block overrides the content block in _base.html #} 
 {% block content %}
+<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
     <h2>Welcome to the Home Page!</h2>
     <p>This is a home page for something!</p>
     <p>This page uses template inheritance from layout.html.</p>

@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(195, 210, 195);
 }
 nav {
     margin: 0;
@@ -16,6 +17,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
     background-color: #91c3f5;
 }
