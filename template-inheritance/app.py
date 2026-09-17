@@ -16,8 +16,8 @@ def about():
 @app.route('/products')
 def product():
     sneakers = [
-        {'name': 'Nike Air Max', 'price': 120},
-        {'name': 'Adidas Ultraboost', 'price': 140},
+        {'name': 'Nike Air Force 10002X', 'price': 120},
+        {'name': 'New Balance Ultraboost', 'price': 1400},
         {'name': 'Puma RS-X', 'price': 110},
         {'name': 'New Balance 990', 'price': 150}
     ]
