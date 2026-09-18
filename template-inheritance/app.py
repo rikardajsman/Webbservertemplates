@@ -14,12 +14,13 @@ def about():
     return render_template('about.html')
 
 @app.route('/products')
-def product():
+def products():
     sneakers = [
         {'name': 'Nike Air Force 10002X', 'price': 120},
         {'name': 'New Balance Ultraboost', 'price': 1400},
-        {'name': 'Puma RS-X', 'price': 110},
-        {'name': 'New Balance 990', 'price': 150}
+        {'name': 'Nike Air Life', 'price': 10310},
+        {'name': 'New Balance 990', 'price': 150},
+        {'name': 'Volvo XC91', 'price': 1982},
     ]
     return render_template('products.html', sneakers=sneakers)
 
